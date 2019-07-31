@@ -12,7 +12,7 @@
 int main(int argc, const char * argv[]) {
    
     sqliteP heaer = (sqliteP)malloc(sizeof(sqlite));
-    creatLink(heaer)
+    creatLink(heaer);
     
     
     return 0;

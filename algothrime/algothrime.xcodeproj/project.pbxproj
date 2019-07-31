@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		73BC933F22F127D500B22408 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 73BC933E22F127D500B22408 /* main.c */; };
 		73BC934722F1280200B22408 /* SecenceLink.c in Sources */ = {isa = PBXBuildFile; fileRef = 73BC934622F1280200B22408 /* SecenceLink.c */; };
+		73BC934A22F1314800B22408 /* Bubble.c in Sources */ = {isa = PBXBuildFile; fileRef = 73BC934922F1314800B22408 /* Bubble.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		73BC933E22F127D500B22408 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		73BC934522F1280200B22408 /* SecenceLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecenceLink.h; sourceTree = "<group>"; };
 		73BC934622F1280200B22408 /* SecenceLink.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SecenceLink.c; sourceTree = "<group>"; };
+		73BC934822F1314800B22408 /* Bubble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bubble.h; sourceTree = "<group>"; };
+		73BC934922F1314800B22408 /* Bubble.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Bubble.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				73BC933E22F127D500B22408 /* main.c */,
 				73BC934522F1280200B22408 /* SecenceLink.h */,
 				73BC934622F1280200B22408 /* SecenceLink.c */,
+				73BC934822F1314800B22408 /* Bubble.h */,
+				73BC934922F1314800B22408 /* Bubble.c */,
 			);
 			path = algothrime;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73BC934722F1280200B22408 /* SecenceLink.c in Sources */,
+				73BC934A22F1314800B22408 /* Bubble.c in Sources */,
 				73BC933F22F127D500B22408 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

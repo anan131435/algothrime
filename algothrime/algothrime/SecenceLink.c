@@ -37,5 +37,31 @@ void insertLink(sqliteP L, int i, int data){
 void clearLink(sqliteP L){
     L ->last = -1;
 }
+//删除元素是通过移动数组覆盖删除
+void deletLink(sqliteP l, int no){
+    if (no > l->last || no < 0){
+        printf("error");
+    }else{
+        for (int i = no ; i < l->last; i ++) {
+            l->data[i] = l->data[i+1];
+            l->last --;
+        }
+    }
+}
+
+int locateLink(sqlite l, int no){
+    if (no < 0 || no > l.last){
+        return  -1;
+    }
+    int i = 0;
+    while (i < l.last && i != no) {
+        i ++;
+    }
+    if (i < l.last){
+        return l.data[i];
+    }else{
+        return -1;
+    }
+}
 
 
